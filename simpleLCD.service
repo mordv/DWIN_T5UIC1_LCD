@@ -5,7 +5,7 @@
  [Service]
  Type=idle
  ExecStartPre=/bin/sleep 30
- ExecStart=/home/orangepi/venv/bin/python3 /home/orangepi/DWIN_T5UIC1_LCD/run.py  > /tmp/lcd.log 2>&1
+ ExecStart=/home/orangepi/venv/bin/python3 /home/orangepi/DWIN_T5UIC1_LCD/run.py  > /tmp/lcd.log
 
  [Install]
  WantedBy=multi-user.target
