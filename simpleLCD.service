@@ -4,7 +4,7 @@
 
  [Service]
  Type=idle
- ExecStartPre=/bin/sleep 1
+ ExecStartPre=/bin/sleep 30
  ExecStart=/home/orangepi/DWIN_T5UIC1_LCD/venv/bin/python3 /home/orangepi/DWIN_T5UIC1_LCD/run.py > /tmp/lcd.log
 
  [Install]
